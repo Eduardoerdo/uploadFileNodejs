@@ -12,7 +12,6 @@ module.exports = {
         if (error) cb(error)
         const fileName = `${hash.toString('hex')}`
         cb(null, fileName)
-
       })
     }
   })
